@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects · Hasrul Mohamed</title>
+  <meta name="description" content="Projects and data platforms by Hasrul Mohamed · Senior Data Engineer. Enterprise data pipelines, Databricks PySpark workflows, RASTER AI extraction with Schlumberger, and cloud data warehouses.">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+</head>
+<body data-surface="dark">
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" data-surface="dark">
+    <div class="page-container header-container">
+      <a href="index.html" class="brand-logo">
+        <span class="brand-title">hasrulmohamed<span class="brand-dot"></span></span>
+      </a>
+
+      <nav class="nav-primary">
+        <ul class="nav-list label">
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="experience.html" class="nav-link">Experience</a></li>
+          <li><a href="trainer.html" class="nav-link">Trainer</a></li>
+          <li><a href="projects.html" class="nav-link active">Projects</a></li>
+          <li><a href="journal.html" class="nav-link">Journal</a></li>
+          <li><a href="life.html" class="nav-link">Life</a></li>
+        </ul>
+      </nav>
+
+      <nav class="nav-utilities">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <a href="resume.html" class="btn-utility btn-utility-resume">Resume ↗</a>
+          <a href="contact.html" class="btn-utility">Contact →</a>
+        </div>
+      </nav>
+
+      <div class="mobile-controls">
+        <a href="contact.html" class="btn-utility" style="padding: 0.35rem 0.75rem;">Contact →</a>
+        <button type="button" id="menu-toggle" class="btn-menu-toggle" aria-expanded="false">Menu</button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="site-menu" class="mobile-drawer" data-surface="dark">
+      <div class="page-container">
+        <p class="label text-muted" style="margin-bottom: 0.75rem;">Primary</p>
+        <ol class="mobile-nav-list">
+          <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link"><span class="mobile-nav-num">01</span><span class="mobile-nav-text">About</span></a></li>
+          <li class="mobile-nav-item"><a href="experience.html" class="mobile-nav-link"><span class="mobile-nav-num">02</span><span class="mobile-nav-text">Experience</span></a></li>
+          <li class="mobile-nav-item"><a href="trainer.html" class="mobile-nav-link"><span class="mobile-nav-num">03</span><span class="mobile-nav-text">Trainer</span></a></li>
+          <li class="mobile-nav-item"><a href="projects.html" class="mobile-nav-link"><span class="mobile-nav-num">04</span><span class="mobile-nav-text">Projects</span></a></li>
+          <li class="mobile-nav-item"><a href="journal.html" class="mobile-nav-link"><span class="mobile-nav-num">05</span><span class="mobile-nav-text">Journal</span></a></li>
+          <li class="mobile-nav-item"><a href="life.html" class="mobile-nav-link"><span class="mobile-nav-num">06</span><span class="mobile-nav-text">Life</span></a></li>
+        </ol>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    
+    <section class="py-section" data-surface="dark" style="padding-bottom: 2rem;">
+      <div class="page-container">
+        <div style="max-width: 52rem;">
+          <p class="label text-muted"><span class="text-ink" style="margin-right: 0.5rem;">//</span>Directory</p>
+          <h1 class="text-display-lg" style="margin-top: 1rem;">
+            Selected Builds &amp;<br>Data Products.
+          </h1>
+          <p class="text-lead" style="margin-top: 1.5rem;">
+            A curated portfolio of enterprise data pipelines, cloud warehouses, applied AI/ML extraction systems, and full-stack platforms delivered over 10 years.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Grid Section -->
+    <section class="py-section" data-surface="light">
+      <div class="page-container">
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 3rem;">
+          
+          <!-- Project 1: RASTER -->
+          <article id="raster" style="display: flex; flex-direction: column;">
+            <div class="preview-aspect-box" style="border: 1px solid rgb(var(--line));">
+              <img src="assets/projects/nexus-cloud.jpg" alt="RASTER Autonomous Data Enrichment Pipeline" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="label preview-badge">Applied AI / Dataiku</span>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <p class="label text-muted">01 · PETRONAS with Schlumberger (2025)</p>
+              <h2 style="font-size: 1.75rem; font-weight: 800; margin-top: 0.25rem;">RASTER Autonomous Data Enrichment</h2>
+              <p class="text-muted" style="margin-top: 0.75rem; line-height: 1.6;">
+                Built automated document classification and extraction workflows using Azure AI Form Recognizer, Dataiku, and Python. Engineered preprocessing logic for splitting, filtering, and routing scanned PDF documents based on content confidence, flattening nested JSON into normalized tabular datasets.
+              </p>
+              <div class="build-metrics" style="margin-top: 1rem;">
+                <div><span class="metric-val">100%</span><span class="label metric-label">Data Traceability</span></div>
+                <div><span class="metric-val">&lt; 30s</span><span class="label metric-label">Doc Ingestion</span></div>
+                <div><span class="metric-val">99.4%</span><span class="label metric-label">OCR Confidence</span></div>
+              </div>
+              <div class="label text-muted" style="margin-top: 1rem;">
+                Azure AI Form Recognizer · Dataiku · Python · OCR · Tabular Normalization
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: VIRTUS IP -->
+          <article id="virtus-ip" style="display: flex; flex-direction: column;">
+            <div class="preview-aspect-box" style="border: 1px solid rgb(var(--line));">
+              <img src="assets/projects/argoflow-gitops.jpg" alt="VIRTUS IP Feature Engineering Platform on Databricks" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="label preview-badge">Databricks / MLflow</span>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <p class="label text-muted">02 · Enterprise ML Enablement</p>
+              <h2 style="font-size: 1.75rem; font-weight: 800; margin-top: 0.25rem;">VIRTUS IP Machine Learning Platform</h2>
+              <p class="text-muted" style="margin-top: 0.75rem; line-height: 1.6;">
+                Led data engineering and ML enablement for the VIRTUS IP project using Databricks. Engineered PySpark ingestion, automated feature generation, schema enforcement, and MLflow pipeline integrations for downstream predictive analytics and model training.
+              </p>
+              <div class="build-metrics" style="margin-top: 1rem;">
+                <div><span class="metric-val">14d → 30m</span><span class="label metric-label">Processing Time</span></div>
+                <div><span class="metric-val">Delta Lake</span><span class="label metric-label">Schema Validation</span></div>
+                <div><span class="metric-val">MLflow</span><span class="label metric-label">Model Pipeline</span></div>
+              </div>
+              <div class="label text-muted" style="margin-top: 1rem;">
+                Databricks · PySpark · Delta Lake · MLflow · Python · Snowflake
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: DIC Platform -->
+          <article id="dic-platform" style="display: flex; flex-direction: column;">
+            <div class="preview-aspect-box" style="border: 1px solid rgb(var(--line));">
+              <img src="assets/projects/telemetry-3d.jpg" alt="Data Integration & Consolidation Platform" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="label preview-badge">Data Warehouse / ETL</span>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <p class="label text-muted">03 · Production Data Integration</p>
+              <h2 style="font-size: 1.75rem; font-weight: 800; margin-top: 0.25rem;">Data Integration &amp; Consolidation (DIC)</h2>
+              <p class="text-muted" style="margin-top: 0.75rem; line-height: 1.6;">
+                Directed engineering team ingesting multi-sheet Excel files into PostgreSQL-based DIC databases with automated validation and standardized workflows. Built dynamic Python extraction scripts and pre-load QA/QC automated patching.
+              </p>
+              <div class="build-metrics" style="margin-top: 1rem;">
+                <div><span class="metric-val">100%</span><span class="label metric-label">Pre-load QA/QC</span></div>
+                <div><span class="metric-val">Multi-Sheet</span><span class="label metric-label">Dynamic Extraction</span></div>
+                <div><span class="metric-val">PostgreSQL</span><span class="label metric-label">Unified Schema</span></div>
+              </div>
+              <div class="label text-muted" style="margin-top: 1rem;">
+                Python · PostgreSQL · SQL Server · Apache Airflow · Docker
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: AIMS Platform -->
+          <article id="aims-platform" style="display: flex; flex-direction: column;">
+            <div class="preview-aspect-box" style="border: 1px solid rgb(var(--line));">
+              <img src="assets/projects/aethernet-swarm.jpg" alt="AIMS Membership & Course Platform" style="width: 100%; height: 100%; object-fit: cover;">
+              <span class="label preview-badge">Full-Stack Application</span>
+            </div>
+            <div style="margin-top: 1.25rem;">
+              <p class="label text-muted">04 · Production Web Platform</p>
+              <h2 style="font-size: 1.75rem; font-weight: 800; margin-top: 0.25rem;">AIMS Membership &amp; Course Platform</h2>
+              <p class="text-muted" style="margin-top: 0.75rem; line-height: 1.6;">
+                Developed and launched AIMS, an online membership and course application platform for AFPM that completely digitized candidate application intake, online payment gateway processing, automated e-receipts, and Moodle e-learning integration.
+              </p>
+              <div class="build-metrics" style="margin-top: 1rem;">
+                <div><span class="metric-val">100%</span><span class="label metric-label">Digitized Process</span></div>
+                <div><span class="metric-val">Instant</span><span class="label metric-label">E-Receipt Generation</span></div>
+                <div><span class="metric-val">Moodle</span><span class="label metric-label">LMS Sync</span></div>
+              </div>
+              <div class="label text-muted" style="margin-top: 1rem;">
+                Laravel · PHP · MySQL · JavaScript · jQuery · HeidiSQL
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" data-surface="dark">
+    <div class="page-container footer-grid">
+      <div class="footer-brand-col">
+        <span class="brand-title" style="font-size: 1.75rem;">hasrulmohamed<span class="brand-dot"></span></span>
+        <p class="label text-muted" style="margin-top: 0.5rem;">Made by Hasrul</p>
+      </div>
+      <nav class="footer-nav-col" aria-label="Footer sections">
+        <p class="label text-muted" style="margin-bottom: 0.75rem;">Sections</p>
+        <ul class="footer-link-list">
+          <li><a href="about.html" class="footer-link">About</a></li>
+          <li><a href="experience.html" class="footer-link">Experience</a></li>
+          <li><a href="trainer.html" class="footer-link">Trainer</a></li>
+          <li><a href="projects.html" class="footer-link active">Projects</a></li>
+          <li><a href="journal.html" class="footer-link">Journal</a></li>
+          <li><a href="life.html" class="footer-link">Life</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav-col" aria-label="Footer utilities">
+        <p class="label text-muted" style="margin-bottom: 0.75rem;">Utilities</p>
+        <ul class="footer-link-list">
+          <li><a href="resume.html" class="footer-link">Resume</a></li>
+          <li><a href="credentials.html" class="footer-link">Credentials</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-nav-col" aria-label="Elsewhere social links">
+        <p class="label text-muted" style="margin-bottom: 0.75rem;">Elsewhere</p>
+        <ul class="footer-link-list">
+          <li><a href="mailto:hasrulmohamed.hm@gmail.com" class="footer-link">Email ↗</a></li>
+          <li><a href="https://linkedin.com/in/hasrulmohamed" target="_blank" class="footer-link">LinkedIn ↗</a></li>
+          <li><a href="https://github.com/hasrulmohamed-hm" target="_blank" class="footer-link">GitHub ↗</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom-col" style="border-top: 1px solid rgb(var(--line)); padding-top: 1.5rem; margin-top: 1rem;">
+        <p class="label text-muted">© <span class="copyright-year">2026</span> Hasrul Mohamed · Made by Hasrul</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

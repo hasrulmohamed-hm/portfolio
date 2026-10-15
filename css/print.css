@@ -1,0 +1,59 @@
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  html, body {
+    background: #ffffff !important;
+    color: #090909 !important;
+    font-size: 10pt;
+    line-height: 1.4;
+  }
+
+  .site-header,
+  .site-footer,
+  .btn-print,
+  .skip-link,
+  .mobile-drawer,
+  #email-toast {
+    display: none !important;
+  }
+
+  [data-surface] {
+    background: #ffffff !important;
+    color: #090909 !important;
+  }
+
+  .page-container {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  a {
+    color: #090909 !important;
+    text-decoration: none !important;
+  }
+
+  .resume-section {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid #d1d5db;
+    padding-bottom: 1rem;
+  }
+
+  .resume-section:last-child {
+    border-bottom: none;
+  }
+
+  .resume-role-item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+
+  .resume-header {
+    border-bottom: 2px solid #090909;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
